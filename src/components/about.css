@@ -1,0 +1,25 @@
+.about-section {
+  padding: 5rem 2rem;
+  background: #f8f9fa; /* Arkaplan rengi */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #3b82f6;
+  margin-bottom: 2rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+}

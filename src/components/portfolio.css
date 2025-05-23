@@ -1,0 +1,28 @@
+.portfolio {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 2.5rem;
+  color: #3b82f6;
+  margin-bottom: 2rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 12px;
+  color: #cbd5e1;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
